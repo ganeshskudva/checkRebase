@@ -69,7 +69,7 @@ class P {
 
                     if (boxCheck[index])
                         return false;
-                    boxCheck[index] = true;
+                    boxCheck[index] = false;
                 }
             }
         }
