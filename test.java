@@ -64,13 +64,6 @@ class P {
 
                 int rowBox = (row/3)*3 + col/3;
                 int colBox = (row%3)*3 + col%3;
-                if (board[rowBox][colBox] != '.') {
-                    index = Character.getNumericValue(board[rowBox][colBox]) - 1;
-
-                    if (boxCheck[index])
-                        return false;
-                    boxCheck[index] = false;
-                }
             }
         }
 
